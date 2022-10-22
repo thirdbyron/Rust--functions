@@ -10,5 +10,9 @@ fn another_function(x: u32) {
 }
 
 fn function_return_number(y: i8) -> i8 {
-    y
+    if y != 0 {
+        y
+    } else {
+        y + 1
+    }
 }
