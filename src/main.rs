@@ -5,5 +5,10 @@ fn main() {
 }
 
 fn another_function(x: u32) {
-    println!("Hello from another function! This is a parameter - {x}")
+    let y = function_return_number(8);
+    println!("Hello from another function! This is a parameter - {}. And this returned by one more function - {}", x, y)
+}
+
+fn function_return_number(y: i8) -> i8 {
+    y
 }
