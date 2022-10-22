@@ -2,6 +2,11 @@ fn main() {
     println!("Hello, world!");
 
     another_function(5);
+
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
 }
 
 fn another_function(x: u32) {
